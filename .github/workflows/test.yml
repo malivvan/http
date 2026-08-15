@@ -26,6 +26,8 @@ jobs:
         run: go install github.com/agnivade/wasmbrowsertest@latest
       - name: Build
         run: go build -v ./...
+      - name: Allow Chrome user-namespace sandbox
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
       - name: Run Unit tests
         run: go test -race -covermode atomic -coverprofile=covprofile ./...
       - name: Install goveralls
