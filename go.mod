@@ -5,7 +5,7 @@ go 1.26.5
 require (
 	github.com/andybalholm/brotli v1.2.2
 	github.com/klauspost/compress v1.19.2
-	github.com/malivvan/tls v0.0.0-20260815111216-abdfc7757acf
+	github.com/malivvan/tls v1.0.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/net v0.58.0
 	golang.org/x/term v0.45.0
