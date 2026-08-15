@@ -1,6 +1,7 @@
 # http [![godoc](https://godoc.org/github.com/malivvan/http?status.svg)](https://godoc.org/github.com/malivvan/http) ![test](https://github.com/malivvan/http/workflows/test/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/malivvan/http/badge.svg?branch=master)](https://coveralls.io/github/malivvan/http?branch=master) [![Release](https://img.shields.io/github/v/release/malivvan/http.svg?sort=semver)](https://github.com/malivvan/http/releases/latest) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-# Vendor
+A Go HTTP client and server library with browser impersonation, TLS and HTTP/2 fingerprint customization, ordered headers, content-encoding support, and incoming connection fingerprinting. It remains largely compatible with the standard net/http package while adding controls for realistic browser behavior.
+
 - `.` github.com/bogdanfinn/fhttp v0.6.8
 - `./websocket` github.com/malivvan/http/websocket v1.8.15
 
