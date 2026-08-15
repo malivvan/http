@@ -22,6 +22,8 @@ jobs:
       - run: go version
       - name: Install dependencies
         run: go mod download
+      - name: Install wasmbrowsertest
+        run: go install github.com/agnivade/wasmbrowsertest@latest
       - name: Build
         run: go build -v ./...
       - name: Run Unit tests
