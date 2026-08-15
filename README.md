@@ -4,6 +4,8 @@
 - `.` github.com/bogdanfinn/fhttp v0.6.8
 - `./websocket` github.com/malivvan/http/websocket v1.8.15
 
+> `./websocket` was adapted to improve fingerprinting and spoofing
+
 ## Features
 
 ### Browser impersonation (client)
